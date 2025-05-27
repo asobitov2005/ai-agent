@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+*.tmp
+
+# Logs
+*.log
+logs/
+log/
+
+# dotenv environment variables file
+.env
+.env.*.local
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pydantic cache
+*.db
+
+# Misc
+*.sqlite3
+*.db-journal
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings folder
+.vscode/
+
+# pytest cache
+.pytest_cache/
+
+# pyre type checker
+.pyre/
+
+# Poetry
+.poetry/
+
+# Python bytecode
+__pycache__/
+*.pyc
